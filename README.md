@@ -10,5 +10,3 @@ spring.cloud.consul.port=${CONSUL_PORT:8500}
 spring.cloud.consul.discovery.healthCheckInterval=15s
 spring.cloud.consul.discovery.instanceId=${spring.application.name}:${spring.application.instanceid:${random.value}}
 ```
-
-
